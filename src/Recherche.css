@@ -20,3 +20,23 @@
 .recherche-input::placeholder {
   color: #b2bec3;
 }
+.recherche-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.recherche-effacer {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #b2bec3;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.recherche-effacer:hover {
+  color: #2c3e50;
+}
